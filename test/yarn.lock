@@ -1629,22 +1629,24 @@ unique-stream@^1.0.0:
     mkdirp "^0.5.1"
     ncp "^2.0.0"
 
-"unity-request-disposable@github:beatthat/unity-request-disposable":
-  version "0.0.1"
-  resolved "https://codeload.github.com/beatthat/unity-request-disposable/tar.gz/38619aae57593a2ceeb7966a4efc1a768b4a8a41"
+"unity-request-disposable@github:beatthat/unity-request-disposable#0.0.2":
+  version "0.0.2"
+  resolved "https://codeload.github.com/beatthat/unity-request-disposable/tar.gz/f01529524ce6caa3643260ab83cf57128d3d43e1"
   dependencies:
     mkdirp "^0.5.1"
     ncp "^2.0.0"
     unity-disposable "github:beatthat/unity-disposable#^0.0.1"
-    unity-request "github:beatthat/unity-request#^0.0.1"
+    unity-request "github:beatthat/unity-request#^0.0.3"
 
-"unity-request@github:beatthat/unity-request#^0.0.1":
-  version "0.0.1"
-  resolved "https://codeload.github.com/beatthat/unity-request/tar.gz/e32dd0d7e11edfc5ef6553b1c47fe5e69b7d9f0c"
+"unity-request@github:beatthat/unity-request#^0.0.3":
+  version "0.0.3"
+  resolved "https://codeload.github.com/beatthat/unity-request/tar.gz/1cec220d5fb8dc04e20aa9e78ae445c410cc89ca"
   dependencies:
     mkdirp "^0.5.1"
     ncp "^2.0.0"
     unity-serialization "github:beatthat/unity-serialization#^0.0.1"
+    unity-services "github:beatthat/unity-services#^0.0.1"
+    unity-utils "github:beatthat/unity-utils#^0.0.2"
 
 "unity-serialization@github:beatthat/unity-serialization#^0.0.1":
   version "0.0.1"
@@ -1664,6 +1666,13 @@ unique-stream@^1.0.0:
 "unity-utils@github:beatthat/unity-utils#^0.0.1":
   version "0.0.1"
   resolved "https://codeload.github.com/beatthat/unity-utils/tar.gz/e828dd4996b066998e0dc7909c2170bcabed8a53"
+  dependencies:
+    mkdirp "^0.5.1"
+    ncp "^2.0.0"
+
+"unity-utils@github:beatthat/unity-utils#^0.0.2":
+  version "0.0.2"
+  resolved "https://codeload.github.com/beatthat/unity-utils/tar.gz/e728f6e844b8a3176069643c296c1ddc86e07c6d"
   dependencies:
     mkdirp "^0.5.1"
     ncp "^2.0.0"
