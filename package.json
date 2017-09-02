@@ -1,6 +1,6 @@
 {
-  "name": "unity-request-disposable",
-  "version": "0.0.5",
+  "name": "unity-request-disposables",
+  "version": "0.0.6",
   "description": "services",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "ncp": "^2.0.0",
     "mkdirp": "^0.5.1",
-    "unity-requests": "beatthat/unity-requests#semver:^0.0.14",
+    "unity-requests": "beatthat/unity-requests#semver:^0.0.15",
     "unity-disposable": "beatthat/unity-disposable#semver:^0.0.2"
   }
 }

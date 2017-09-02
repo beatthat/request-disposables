@@ -8,7 +8,7 @@
     "clean": "rm -rf node_modules yarn.lock package-lock.json Library Temp Assets"
   },
   "dependencies": {
-    "unity-request-disposable": "../unity-request-disposable-0.0.5.tgz"
+    "unity-request-disposable": "../unity-request-disposables-0.0.6.tgz"
   },
   "devDependencies": {
     "babel-core": "^5.8.23",
