@@ -1,16 +1,21 @@
 using UnityEngine;
 using System;
 using UnityEngine.Networking;
+using BeatThat.Disposables;
 
-namespace BeatThat
+namespace BeatThat.Requests
 {
 	/// <summary>
 	/// TODO: change so that the request can be disposed immediately and the loaded clip disposed elsewhere/later
 	/// </summary>
 	public class WebDisposableTextureRequest : WebRequestBase, Request<Disposable<Texture2D>>
 	{
-		public WebDisposableTextureRequest(WebRequestRunner runner, string url = null, HttpVerb verb = HttpVerb.GET, float delay = 0f) 
-			: base(runner, url, verb, delay) {}
+		//public WebDisposableTextureRequest(WebRequestRunner runner, string url = null, HttpVerb verb = HttpVerb.GET, float delay = 0f) 
+			//: base(runner, url, verb, delay) {}
+
+        public WebDisposableTextureRequest(string url = null, HttpVerb verb = HttpVerb.GET, float delay = 0f)
+            : base(url, verb, delay) { }
+
 
 
 		public object GetItem() { return this.item; } 

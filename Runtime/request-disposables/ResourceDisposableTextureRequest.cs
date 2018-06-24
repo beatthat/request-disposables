@@ -1,5 +1,7 @@
 
-namespace BeatThat
+using BeatThat.Disposables;
+
+namespace BeatThat.Requests
 {
 	/// <summary>
 	/// TODO: change so that the request can be disposed immediately and the loaded clip disposed elsewhere/later

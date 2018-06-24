@@ -10,7 +10,7 @@
     "overwrite:test2src": "node ./scripts/overwrite-test2src.js"
   },
   "dependencies": {
-    "request-disposables": "../request-disposables-0.0.7.tgz"
+    "request-disposables": "../request-disposables-latest.tgz"
   },
   "devDependencies": {
     "babel-core": "^5.8.23",
