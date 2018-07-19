@@ -8,7 +8,7 @@ namespace BeatThat.Requests
 	/// <summary>
 	/// TODO: change so that the request can be disposed immediately and the loaded clip disposed elsewhere/later
 	/// </summary>
-	public class WebDisposableTextureRequest : WebRequestBase, Request<Disposable<Texture2D>>
+	public class WebDisposableTextureRequest : WebRequest, Request<Disposable<Texture2D>>
 	{
 		//public WebDisposableTextureRequest(WebRequestRunner runner, string url = null, HttpVerb verb = HttpVerb.GET, float delay = 0f) 
 			//: base(runner, url, verb, delay) {}
