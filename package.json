@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beatthat/request-disposable.git"
+    "url": "git+https://github.com/beatthat/request-disposables.git"
   },
   "files": [
     "index.js",
@@ -18,9 +18,9 @@
   "author": "larrykirschner@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beatthat/request-disposable/issues"
+    "url": "https://github.com/beatthat/request-disposables/issues"
   },
-  "homepage": "https://github.com/beatthat/request-disposable",
+  "homepage": "https://github.com/beatthat/request-disposables",
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
     "clean": "rm -f *.tgz package-lock.json && cd test && npm run clean",
@@ -43,7 +43,7 @@
   "dependencies": {
     "path": "^0.12.7",
     "unity-npm-utils": "github:beatthat/unity-npm-utils#semver:^1.0.0",
-    "requests": "beatthat/requests#semver:^1.0.0",
+    "requests": "beatthat/requests#semver:^1.4.0",
     "disposables": "beatthat/disposables#semver:^1.0.0"
   },
   "devDependencies": {},

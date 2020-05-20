@@ -21,13 +21,12 @@ namespace BeatThat.Requests
 		public object GetItem() { return this.item; } 
 		public Disposable<Texture2D> item { get; protected set; }
 
-		override public void Prepare() 
+		override protected UnityWebRequest PrepareRequest() 
 		{
-			base.Prepare();
-
-			this.downloadHandler = new DownloadHandlerTexture(); //StaticObjectPool<DownloadHandlerTexture>.Get();
-
-			this.www.downloadHandler = this.downloadHandler;
+			var req = base.PrepareRequest();
+			this.downloadHandler = new DownloadHandlerTexture();
+			req.downloadHandler = this.downloadHandler;
+			return req;
 		}
 
 		virtual public void Execute(Action<Request<Disposable<Texture2D>>> callback) 
